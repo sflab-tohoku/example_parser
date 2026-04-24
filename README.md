@@ -21,6 +21,8 @@ EBin (OpAdd,1,2)
 
 ## 備考
 
+`src/dune`の`example`の部分は適当に変更してください．
+
 `dune utop`を有効に使うために`main.ml`以外をライブラリとして分離したほうがよいかもしれない．
 
 ただ作業としては`main.ml`を分離したほうが楽である．
@@ -58,7 +60,6 @@ open Mylib
 .
 ├── README.md
 ├── dune-project
-├── example.opam
 ├── app
 │   ├── dune
 │   └── main.ml
