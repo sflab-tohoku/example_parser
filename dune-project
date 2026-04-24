@@ -1,5 +1,8 @@
 (lang dune 3.13)
 
-(name example)
+(package 
+ (name sflab-tohoku-jikkenD-example-project))
 
 (using menhir 3.0)
+
+(generate_opam_files) 
