@@ -59,7 +59,7 @@ open Mylib
 ├── README.md
 ├── dune-project
 ├── example.opam
-├── src
+├── app
 │   ├── dune
 │   └── main.ml
 └── src
